@@ -11,3 +11,14 @@ body {
     margin-right: 10px;
 }
 
+.comment-val {
+    display: inline-block;
+}
+
+.comment-body {
+    display: table-caption;
+}
+
+hr {
+    margin: 5px;
+}
