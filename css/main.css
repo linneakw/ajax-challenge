@@ -1,4 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
 
 body {
     font-family: 'Ubuntu', 'Helvetica Neue', 'Helvetica', sans-serif;
@@ -21,4 +24,66 @@ body {
 
 hr {
     margin: 5px;
+}
+
+main {
+    width: 80%;
+    border-right: 1px solid #969696;
+    border-left: 1px solid #969696;
+    background-color: rgba(255, 255, 255, 1);
+    padding-bottom: 50px;
+    border-bottom: 5px solid black;
+}
+
+body{
+    background-color: #2E2E2E;
+    background-image: url('../img/always_grey.png');
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Open Sans Condensed';
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Open Sans Condensed';
+    font-size: 30px;
+    border-bottom: 1px solid #3D3D3D;
+}
+
+#comment-name {
+    width: 200px;
+}
+
+#comment-title {
+    width: 250px;
+}
+
+#comment-body {
+    height: 150px;
+}
+
+.next-to {
+    margin-top: -75px;
+    margin-left: 250px;
+}
+
+#top-bar {
+    position: relative;
+    padding-right: -15px;
+    top: 10px;
+    width: 80%;
+    height: 50px;
+    color: #E0E0E0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border: 1px solid #969696;
+    background: url('../img/zwartevilt.png');
+    font-family: 'Quicksand';
+    font-size: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }

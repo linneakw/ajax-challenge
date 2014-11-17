@@ -7,24 +7,31 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
-    <body>
 
+    <body>
+        <div id="top-bar">PRODUCT REVIEW</div>
         <main class="container-fluid" ng-app="AjaxApp" ng-controller="CommentController">
             <section>
-                <img src="img/super-bass-o-matic-76.jpg" alt="product picture" class="product-picture">
                 <h1>The Super Bass-o-Matic '76</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cumque deserunt ullam repudiandae nisi corporis! Ipsum, ducimus commodi, itaque porro distinctio consequuntur! Autem doloremque numquam nemo ex nulla tempora quis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde nihil doloribus excepturi quisquam error possimus veritatis facere, commodi cumque ab atque dolore ducimus obcaecati ipsa, impedit! Consequuntur, eligendi iure cumque!</p>
+                <img src="img/super-bass-o-matic-76.jpg" alt="product picture" class="product-picture">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cumque deserunt ullam
+                    repudiandae nisi corporis! Ipsum, ducimus commodi, itaque porro distinctio consequuntur!
+                    Autem doloremque numquam nemo ex nulla tempora quis! Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Unde nihil doloribus excepturi quisquam error possimus veritatis facere, commodi
+                    cumque ab atque dolore ducimus obcaecati ipsa, impedit! Consequuntur, eligendi iure cumque!</p>
+                <br/>
             </section>
 
             <section>
-                <h2>Add a Comment</h2>
+                <br/>
+                <p><h2>Add a Comment</h2></p>
                 <form ng-submit="addComment()">
                     <div class="form-group">
                         <label>Your Name: </label>
                         <input type="text" id="comment-name" class="form-control"
                                placeholder="name of commenter" ng-model="newComment.name"/>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group next-to">
                         <label for="comment-title">Title</label>
                         <input type="text" id="comment-title" class="form-control"
                                placeholder="title of new comment" ng-model="newComment.title"/>
